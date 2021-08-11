@@ -1,0 +1,21 @@
+memo sql
+
+create table memo(
+content varchar2(20)
+);
+
+insert into memo values('test1');
+insert into memo values('test2');
+insert into memo values('test3');
+insert into memo values('test4');
+insert into memo values('test5');
+insert into memo values('exam1');
+insert into memo values('exam2');
+insert into memo values('exam3');
+insert into memo values('exam4');
+insert into memo values('exam5');
+
+select * from memo;
+
+select * from memo where content like '%test%';
+
